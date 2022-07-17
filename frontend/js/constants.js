@@ -3,7 +3,7 @@ const chain = 'rinkeby'; // rinkeby, polygon, or ethereum
 
 const welcome_h1 = "Welcome to the Cooupers NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started"; 
-const welcome_p = 'The Cooupers NFT Project is a decentralized, open-source project.';
+const welcome_p = 'The Cooupers, a 10.000  NFT collection ,get yours until it swims away!';
 const h1_presale_coming_soon = "NFT Mint Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
