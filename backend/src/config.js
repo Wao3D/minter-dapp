@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "cooupers";
-const description = "Come join the wonderful world of Cooupers, a collection of 10.000 octopus with hundreds of variations, get yours until it's swims away.";
+const description = "Come join the wonderful world of Cooupers, a NFT collection of 10.000 octopus with hundreds of variations and style, get yours until it's swims away.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
@@ -26,7 +26,7 @@ const layerConfigurations = [
   },
 ];
 
-const shuffleLayerConfigurations = true;
+const shuffleLayerConfigurations = false;
 
 const debugLogs = false;
 
@@ -58,10 +58,10 @@ const MINT_PRICE = 0.000001; // Minting price per NFT. Rinkeby = ETH, Ethereum =
 const TOKENS_PER_MINT = 5; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = null;//"2022-08-06T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-08-06T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = null;//"2022-08-05T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2022-08-05T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 500; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x7BC92CCba46c1C5A1C365F5621FA29736ae0E5be"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
