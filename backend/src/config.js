@@ -7,13 +7,13 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "cooupers";
+const namePrefix = "Coouper";
 const description = "Come join the wonderful world of Cooupers, a NFT collection of 10.000 octopus with hundreds of variations and style, get yours until it's swims away.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 20,
+    growEditionSizeTo: 100,
     layersOrder: [
       { name: "Background" },
       { name: "Skin" },
