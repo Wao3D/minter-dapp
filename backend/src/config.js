@@ -13,7 +13,7 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 200,
+    growEditionSizeTo: 20,
     layersOrder: [
       { name: "Background" },
       { name: "Skin" },
@@ -72,7 +72,7 @@ const PRESALE_WHITELISTED_ADDRESSES = ["0x7BC92CCba46c1C5A1C365F5621FA29736ae0E5
 let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
-const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
+const GENERIC = null; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
 const GENERIC_DESCRIPTION = "Come join the wonderful world of Cooupers, a collection of 10.000 octopus with plenty of variations, get yours until it's swims away."; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafkreiegnfuf2ji3qcgj4vmlio7oghwvwx6mwlal4rd75rjtyse4boowty"; // Replace with your generic image that will display for all NFTs pre-reveal.
