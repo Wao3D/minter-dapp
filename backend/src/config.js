@@ -8,20 +8,21 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "Coouper";
-const description = "Come join the wonderful world of Cooupers, a NFT collection of 10.000 octopus with hundreds of variations and styles, get yours until it's swims away.";
+const description = "Come join the wonderful world of Cooupers, a NFT collection of 10.000 funny octopus with hundreds of variations and styles, get yours until it's swims away.";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 100,
+    growEditionSizeTo: 500,
     layersOrder: [
       { name: "Background" },
       { name: "Skin" },
       { name: "Expression" },
       { name: "Glasses" },
       { name: "Head" },
-      { name: "Cigarette" },
       { name: "Neck" },
+      { name: "Mustache" },
+      { name: "Cigarette" },
       { name: "Accessory" },
     ],
   },
